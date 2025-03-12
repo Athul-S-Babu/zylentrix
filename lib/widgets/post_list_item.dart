@@ -17,7 +17,7 @@ class PostListItem extends StatelessWidget {
       child: ListTile(
         contentPadding: const EdgeInsets.all(10),
         leading: CircleAvatar(
-          backgroundColor: Colors.blueAccent,
+          backgroundColor: Colors.redAccent,
           child: Text(
             post.id.toString(),
             style: const TextStyle(color: Colors.white),
